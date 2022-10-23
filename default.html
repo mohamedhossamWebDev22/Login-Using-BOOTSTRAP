@@ -11,17 +11,27 @@
     </head>
     <body class="bg-warning">
         <div class="container w-50">
-            <form>
+            <form class="bg-light rounded text-left m-5 p-2">
                 <div class="form-group">
                     <label for="email">Enter your email:</label>
-                    <input type="text" name="" id="email" class="form-control">
+                    <input type="text" name="" id="email" class="form-control bg-dark text-light">
                 </div>
                 <div class="form-group">
                     <label for="password">Enter your password:</label>
-                    <input type="password" name="" id="password" class="form-control">
+                            
+                    <br>
+
+                    <div class="row">
+                        <div class="col col-lg-2 text-center">
+                            <button id="show" class="btn btn-warning">Show</button>
+                        </div>
+                        <div class="col col-lg-10">
+                            <input type="password" name="" id="password" class="form-control bg-dark text-light">
+                        </div>
+                    </div>                                                                    
                 </div>
 
-                <button class="btn btn-outline-warning"></button>
+                <button id="login" class="btn btn-warning">Submit</button>
             </form>
         </div>
 
